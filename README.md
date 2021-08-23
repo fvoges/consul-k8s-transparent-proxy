@@ -78,6 +78,7 @@ consul members
 # name: static-server
 kubectl apply -f server.yaml
 kubectl apply -f client.yaml
+kubectl apply -f intention.yaml
 ```
 
 Youn can deploy additional services with:
